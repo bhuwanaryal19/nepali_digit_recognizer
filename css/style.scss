@@ -1,0 +1,38 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300');
+
+html { 
+	height: 100%;
+    background: #EEE;
+#canvas {
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+input{
+    margin:10px 0 0 6px;
+}
+
+.left {
+	position: relative;
+    float: left;
+    padding:8%;
+}
+.right{
+    float: right;
+    padding:8% 12% 0 0;
+}
+.footer{
+    p{
+        a{
+            color:#444;
+            font-style: italic;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+}
