@@ -1,0 +1,37 @@
+body {
+  background: beige;
+  position: relative;
+}
+
+h1 {
+  margin: 2% 0 3% 0;
+  text-shadow: 2px 2px 2px red;
+}
+
+.link {
+  position: relative;
+  right: -94px;
+  top: -104px;
+}
+
+footer {
+  position: absolute;
+  background: gainsboro;
+  text-align: center;
+  min-height: 80px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  padding-top: 30px;
+}
+
+footer p a {
+  font-style: italic;
+}
+
+footer p a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
