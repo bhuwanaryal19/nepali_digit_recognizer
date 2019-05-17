@@ -1,0 +1,8 @@
+# ignore these folders
+__pycache__/
+
+data/
+
+.vscode/
+
+temp.jpg
