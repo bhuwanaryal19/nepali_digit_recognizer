@@ -17,12 +17,12 @@ def predict():
 		data = request.get_json()
 		imagebase64 = data['image']
 		imgbytes = base64.b64decode(imagebase64)
-		with open("temp.jpg","wb") as temp:
+		with open("temp.png","wb") as temp:
 			temp.write(imgbytes)
-		result = predict_character('temp.jpg')
-
+		result = predict_character('temp.png')
+		
 		return jsonify({
-        	'prediction': result,
+        	'prediction': str(result),
         	'status': True
     	})
 
