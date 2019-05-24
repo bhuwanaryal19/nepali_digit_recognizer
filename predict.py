@@ -16,5 +16,6 @@ def predict_character(image_file):
     with graph.as_default():
         image_loaded = load_img(image_file,target_size=(32,32),color_mode='grayscale')
         img_arr = (img_to_array(image_loaded)/255.0).reshape(1,32,32,1)
-        pred = np.argmax(convnet.predict(img_arr))
-        return nep_numbers[pred]
+        probabilities = convnet.predict(img_arr)
+        pred = np.argmax(probabilities)
+        return nep_numbers[pred], np.amax(probabilities)

@@ -19,10 +19,11 @@ def predict():
 		imgbytes = base64.b64decode(imagebase64)
 		with open("temp.png","wb") as temp:
 			temp.write(imgbytes)
-		result = predict_character('temp.png')
+		result, prob = predict_character('temp.png')
 		
 		return jsonify({
         	'prediction': str(result),
+			'probability': str(prob),
         	'status': True
     	})
 

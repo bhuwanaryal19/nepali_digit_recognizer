@@ -72,9 +72,13 @@
 			   dataType: 'json',
 			   success: function(msg,status, jqXHR){
 					 var a = JSON.parse(jqXHR.responseText);
-					 var prediction = a.prediction
+					 var prediction = a.prediction;
+					 var prob = msg.probability
+					 
 					 document.getElementById("pred").innerHTML = prediction
+					 document.getElementById("prob").innerHTML = prob
 					 document.getElementById("result").style.display = "inline"
+
 			   }
 		   });
 	   }
