@@ -7,6 +7,7 @@ colorama==0.4.1
 Flask==1.0.2
 gast==0.2.2
 grpcio==1.16.1
+gunicorn==19.9.0
 h5py==2.9.0
 isort==4.3.20
 itsdangerous==1.1.0
@@ -18,8 +19,6 @@ lazy-object-proxy==1.4.1
 Markdown==3.1
 MarkupSafe==1.1.1
 mccabe==0.6.1
-mkl-fft==1.0.12
-mkl-random==1.0.2
 mock==2.0.0
 numpy==1.16.3
 olefile==0.46
