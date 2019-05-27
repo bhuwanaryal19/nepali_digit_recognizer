@@ -1,5 +1,7 @@
 # Nepali Digit Recognizer
 A flask app which can recognize nepali handwritten digit drawn in your canvas.
+## Demo 
+![predicting 123](./static/images/123predict.gif)
 
 ## Getting Started
 
@@ -26,4 +28,14 @@ pip install -r requirements.txt
 
     ` python app.py`
 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Credits
+
+* [Prajwal Rai](http://prajjwalrai.com.np/) for frontend design.
+* Dataset Used from [DHCD_Dataset](https://github.com/Prasanna1991/DHCD_Dataset).
+* Inspired from [Siraj Raval](https://github.com/llSourcell/how_to_deploy_a_keras_model_to_production).
 
