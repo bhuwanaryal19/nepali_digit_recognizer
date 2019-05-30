@@ -5,7 +5,7 @@ import tensorflow as tf
 
 
 # load model
-model_path = 'saved_models/clf7.h5'
+model_path = 'saved_models/digit_99.h5'
 convnet = load_model(model_path)
 graph = tf.get_default_graph()
 
