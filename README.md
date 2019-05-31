@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-## Contribution Giudeline
+## Contribution Guidelines
 If you like to contribute to this project, then here are some directions:
 1. Approach this project as a active learning i.e get feedbacks for predictions and store predicted data along with labels and retrain with new data at certain interval. I believe this helps to improve the accuracy as in this case train, valid data are of different distributions than real data.
 2. You can convert model into tflite model and make android app.
