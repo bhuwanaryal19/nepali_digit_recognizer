@@ -7,7 +7,8 @@ A flask app which can recognize nepali handwritten digit drawn in your canvas.
 
 ### Prerequisites
 
-You need to have python installed on your system to run this code locally. If you don't have python installed then, you can install from [here](https://www.python.org/downloads/).
+You need to have python3.6 installed on your system to run this code locally. If you don't have python installed then, you can install from [here](https://www.python.org/downloads/). Tensorflow doesn't officially support python 3.7 on windows, so you need to install 3.6 version.
+
 
 ### Install and setup
 1. Clone this repo.
@@ -33,6 +34,14 @@ pip install -r requirements.txt
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
+## Contribution Giudeline
+If you like to contribute to this project, then here are some directions:
+1. Approach this project as a active learning i.e get feedbacks for predictions and store predicted data along with labels and retrain with new data at certain interval. I believe this helps to improve the accuracy as in this case train, valid data are of different distributions than real data.
+2. You can convert model into tflite model and make android app.
+3. You can collect test data that will be representive of actual data and tune hyperparameters.
+4. As our original data contains mislabels detedect those and label them correctly.
+
+If you have any other suggestions or would like to collabrate in this project or any other, then connect me in [linkedin](https://www.linkedin.com/in/bhuwan-aryal888/).
 ## Credits
 
 * [Prajwal Rai](http://prajjwalrai.com.np/) for frontend design.
